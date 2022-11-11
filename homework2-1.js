@@ -2,10 +2,10 @@ let a = 2;
 let b = 3;
 let c = 4;
 
-if (a>b) {
+if (a>b) {//уже сравнили а и б
     if (a>c) {
         console.log(a);
-    } else {
+    } else {//а меньше с 
         console.log(c);
     }
         
